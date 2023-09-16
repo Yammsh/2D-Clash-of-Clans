@@ -6,7 +6,7 @@ This is the 2-D version of the famous game Clash of Clans. This game consists of
 2)Wizard Tower
 
 # Other Village Buildings
-1)Huts
+*Huts
 2)Townhall
 3)Walls
 
