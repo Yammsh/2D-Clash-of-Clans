@@ -1,23 +1,23 @@
 # 2D-Clash-of-Clans
 This is the 2-D version of the famous game Clash of Clans. This game consists of an army and a village which is defended with the help of defenses.The game also consists of multiple levels (namely - 1,2,3).
 
-#Defences
+# Defences
 1)Canon
 2)Wizard Tower
 
-#Other Village Buildings
+# Other Village Buildings
 1)Huts
 2)Townhall
 3)Walls
 
-#Troops available
+# Troops available
 1)King or Queen
 2)Archer(by name A),Barbarian(by name B) and Ballons(by name L
 
-#Spells available
+# Spells available
 Rage , Heal
 
-#Instructions
+# Instructions
 
 Here we are going to use Python 3:
 
@@ -26,12 +26,12 @@ Here we are going to use Python 3:
 3)Press 1 to choose king and 2 to choose queen
 4)Press q to quit the game.
 
-#Troops instructions
+# Troops instructions
 
 ->Village has three spawning points
 For Barbarian - (y,u,i) are used to spawn them For Archer - (j,k,l) are used to spawn them For Ballon - (b,n,m) are used to spawn them
 
-#For Heroes
+# For Heroes
 
 1)w to move king or queen up
 2)a to move king or queen left
@@ -39,16 +39,16 @@ For Barbarian - (y,u,i) are used to spawn them For Archer - (j,k,l) are used to 
 4)d to move king or queen right
 5). to make the heroes attack
 
-#For Queen
+# For Queen
 
 1)Special attack is implemented which is done with the help of p key
 
-#Spells Instructions
+# Spells Instructions
 
 1)Press r to apply rage spell to all the troops and hero present on the field
 2)Press h to apply heal spell to all the troops and hero present on the field
 
-#Levels
+# Levels
 
 The game is divided into 3 levels. And yeah, successor is even more challenging than the predecessor.
 
@@ -60,7 +60,7 @@ The game is divided into 3 levels. And yeah, successor is even more challenging 
 
 4)If you loose at any level you'll loose and defeat message will appear on the screen
 
-#Replay
+# Replay
 
 Replay feature for all the attacks is also implemented . To play the replay follow the steps
 
