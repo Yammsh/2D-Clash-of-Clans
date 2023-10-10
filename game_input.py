@@ -9,11 +9,11 @@ class Get:
 
     def __call__(self):
         """Defining __call__."""
-        fd = sys.stdin.fileno()
-        old_settings = termios.tcgetattr(fd)
+        fd = sys.stdin.fileno()    #gets the file descriptor of the standard input
+        old_settings = termios.tcgetattr(fd)     # saves the current terminal settings for later restoration
         try:
-            tty.setraw(sys.stdin.fileno())
-            ch = sys.stdin.read(1)
+            tty.setraw(sys.stdin.fileno())   # sets the terminal to raw mode
+            ch = sys.stdin.read(1)     #reads a single character from stdin
         finally:
             termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
         return ch
